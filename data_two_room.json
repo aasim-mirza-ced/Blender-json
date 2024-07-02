@@ -1,0 +1,117 @@
+{
+  "room1": {
+    "dimensions": {
+      "length": 10.0,
+      "width": 8.0,
+      "height": 3.0
+    },
+    "floor": {
+      "type": "wooden",
+      "path": "D:/Ced_data/wooden.jpg"
+    },
+    "ceiling": {},
+    "walls": [
+      {
+        "name": "FrontWall",
+        "location": [0, 4, 1.5],
+        "scale": [5, 1.5],
+        "rotation": [1.5708, 0, 0]
+      },
+      {
+        "name": "BackWall",
+        "location": [0, -4, 1.5],
+        "scale": [5, 1.5],
+        "rotation": [1.5708, 0, 0]
+      },
+      {
+        "name": "RightWall",
+        "location": [-5, 0, 1.5],
+        "scale": [4, 1.5],
+        "rotation": [1.5708, 0, 1.5708]
+      },
+      {
+        "name": "LeftWall",
+        "location": [5, 0, 1.5],
+        "scale": [4, 1.5],
+        "rotation": [1.5708, 0, 1.5708]
+      }
+    ],
+    "doors": [
+      {
+        "wall": "FrontWall",
+        "name": "FrontDoor",
+        "location": [0, 3.99, 1.25],
+        "scale": [1, 0.1, 1.25]
+      },
+      {
+        "wall": "LeftWall",
+        "name": "WashroomDoor",
+        "location": [-5, -3, 1.25],
+        "scale": [0.1, 0.5, 1.25]
+      }
+    ],
+    "windows": [
+      {
+        "wall": "RightWall",
+        "name": "RightWindow",
+        "location": [4.96,2.5,2],
+        "scale": [0.1, 1, 0.75]
+      }
+    ]
+  },
+  "room2": {
+    "dimensions": {
+      "length": 10.0,
+      "width": 8.0,
+      "height": 3.0
+    },
+    "floor": {
+      "type": "wooden",
+      "path": "D:/Ced_data/wooden.jpg"
+    },
+    "ceiling": {},
+    "walls": [
+      {
+        "name": "LeftWall_R2",
+        "location": [-5, 0, 1.5],
+        "scale": [4, 1.5],
+        "rotation": [1.5708, 0, 1.5708]
+      },
+      {
+        "name": "RightWall_R2",
+        "location": [-15, 0, 1.5],
+        "scale": [4, 1.5],
+        "rotation": [1.5708, 0, 1.5708]
+      },
+      {
+        "name": "BackWall_R2",
+        "location": [-10, -4, 1.5],
+        "scale": [5, 1.5],
+        "rotation": [1.5708, 0, 0]
+      },
+      {
+        "name": "FrontWall_R2",
+        "location": [-10,4,1.5],
+        "scale": [5, 1.5],
+        "rotation": [1.5708, 0, 0]
+      }
+    ],
+    "doors": [
+      {
+        "wall": "LeftWall_R2",
+        "name": "R2_door",
+        "location": [-5, -3, 1.25],
+        "scale": [0.1, 0.5, 1.25]
+      }
+    ],
+    "windows": [
+      {
+        "wall": "RightWall_R2",
+        "name": "RightWindow_R2",
+        "location": [-15, 0, 1.5],
+        "scale": [0.1, 2, 0.75]
+      }
+    ]
+  }
+  
+}

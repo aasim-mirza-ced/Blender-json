@@ -1,0 +1,77 @@
+{
+  "room": {
+      "length": 10.0,
+      "width": 8.0,
+      "height": 3.0
+  },
+  "hall": {
+      "length": 15.0,
+      "width": 8.0,
+      "height": 3.0
+  },
+  "floor": {
+      "type": "wooden",
+      "path": "D:/Ced_data/wooden.jpg"
+  },
+  "ceiling": {},
+  "walls": [
+      {
+          "name": "FrontWall",
+          "location": [0, 4, 1.5],
+          "scale": [5, 1.5],
+          "rotation": [1.5708, 0, 0]
+      },
+      {
+          "name": "BackWall",
+          "location": [0, -4, 1.5],
+          "scale": [5, 1.5],
+          "rotation": [1.5708, 0, 0]
+      },
+      {
+          "name": "LeftWall",
+          "location": [-5, 0, 1.5],
+          "scale": [4, 1.5],
+          "rotation": [1.5708, 0, 1.5708]
+      },
+      {
+          "name": "RightWall",
+          "location": [5, 0, 1.5],
+          "scale": [4, 1.5],
+          "rotation": [1.5708, 0, 1.5708]
+      }
+  ],
+  "doors": [
+      {
+          "wall": "FrontWall",
+          "name": "FrontDoor",
+          "location": [0, 3.99, 1.25],
+          "scale": [1, 0.1, 1.25]
+      },
+      {
+          "wall": "LeftWall",
+          "name": "HallDoor",
+          "location": [-4.99, 0, 1.25],
+          "scale": [0.1, 1, 1.25]
+      }
+  ],
+  "windows": [
+      {
+          "wall": "RightWall",
+          "name": "RightWindow",
+          "location": [4.99, 0, 1.5],
+          "scale": [0.1, 2, 0.75]
+      }
+  ],
+  "ceiling_fan": {
+      "location": [0, 0, 2.7],
+      "blade_count": 4,
+      "blade_offset": 0.5,
+      "blade_length": 2.0,
+      "blade_width": 0.5
+  },
+  "bathroom": {
+      "length": 5.0,
+      "width": 4.0,
+      "height": 3.0
+  }
+}

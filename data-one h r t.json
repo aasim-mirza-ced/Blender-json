@@ -1,0 +1,156 @@
+{
+  "room1": {
+    "dimensions": {
+      "length": 15.0,
+      "width": 20.0,
+      "height": 3.0
+    },
+    "floor": {
+      "type": "wooden",
+      "path": "D:/Ced_data/wooden.jpg"
+    },
+    "ceiling": {},
+    "walls": [
+      {
+        "name": "FrontWall",
+        "location": [0, 8, 1.5],
+        "scale": [10, 1.5],
+        "rotation": [1.5708, 0, 0]
+      },
+      {
+        "name": "BackWall",
+        "location": [0, -8, 1.5],
+        "scale": [15, 1.5],
+        "rotation": [1.5708, 0, 0]
+      },
+      {
+        "name": "RightWall",
+        "location": [-10, 0, 1.5],
+        "scale": [8, 1.5],
+        "rotation": [1.5708, 0, 1.5708]
+      },
+      {
+        "name": "LeftWall",
+        "location": [10, 0, 1.5],
+        "scale": [8, 1.5],
+        "rotation": [1.5708, 0, 1.5708]
+      }
+    ],
+    "doors": [
+      {
+        "wall": "FrontWall",
+        "name": "FrontDoor",
+        "location": [0, 8, 1.25],
+        "scale": [1, 0.1, 1.25]
+      },
+      {
+        "wall": "LeftWall",
+        "name": "WashroomDoor",
+        "location": [25, -4, 1.25],
+        "scale": [0.1, 0.5, 1.25]
+      }
+    ],
+    "windows": [
+      {
+        "wall": "LeftWall",
+        "name": "LeftWall",
+        "location": [25,-1.5,2],
+        "scale": [0.1, 1, 0.75]
+      }
+    ]
+  },
+  "room2": {
+    "dimensions": {
+      "length": 10.0,
+      "width": 8.0,
+      "height": 3.0
+    },
+    "floor": {
+      "type": "wooden",
+      "path": "D:/Ced_data/wooden.jpg"
+    },
+    "ceiling": {},
+    "walls": [
+      {
+        "name": "LeftWall_R2",
+        "location": [25, -4, 1.5],
+        "scale": [4, 1.5],
+        "rotation": [1.5708, 0, 1.5708]
+      },
+      {
+        "name": "RightWall_R2",
+        "location": [10, 0, 1.5],
+        "scale": [4, 1.5],
+        "rotation": [1.5708, 0, 1.5708]
+      },
+      {
+        "name": "BackWall_R2",
+        "location": [20, -8, 1.5],
+        "scale": [5, 1.5],
+        "rotation": [1.5708, 0, 0]
+      },
+      {
+        "name": "FrontWall_R2",
+        "location": [17.5,0,1.5],
+        "scale": [7.5, 1.5],
+        "rotation": [1.5708, 0, 0]
+      }
+    ],
+    "doors": [
+      {
+        "wall": "LeftWall_R2",
+        "name": "R2_door",
+        "location": [10, -2, 1.25],
+        "scale": [0.1, 0.5, 1.25]
+      }
+    ],
+    "windows": [
+      {
+        "wall": "RightWall_R2",
+        "name": "RightWindow_R2",
+        "location": [-10, 0, 1.5],
+        "scale": [0.1, 2, 0.75]
+      }
+    ]    
+  },
+  "toilet": {
+    "dimensions": {
+      "length": 5,
+      "width": 4,
+      "height": 3
+    },
+    "floor": {
+      "type": "wooden",
+      "path": "D:/Ced_data/wooden.jpg"
+    },
+    "ceiling": {},
+    "walls": [
+      {
+        "name": "backwall",
+        "location": [30, -5.5, 1.5],
+        "scale": [2.5, 1.5],
+        "rotation": [1.5708, 0, 1.5708]
+      },
+      {
+        "name": "backwall",
+        "location": [27.5,-3, 1.5],
+        "scale": [2.5,1.5,1.5],
+        "rotation": [1.5708, 0, 0]
+      },
+      {
+        "name":"BackWall_T",
+        "location":[27, -8, 1.5],
+        "scale": [3, 1.5],
+        "rotation": [1.5708, 0, 0]
+      }
+    ],
+    "doors": [
+    {
+        "wall": "Right_wall",
+        "name": "ToiletDoor",
+        "location": [5, 1, 1.25],
+        "scale": [0.1, 0.5, 1.25]
+    }
+  ]
+  }
+}

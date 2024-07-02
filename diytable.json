@@ -1,0 +1,70 @@
+{
+  "room": {
+    "length": 10.0,
+    "width": 8.0,
+    "height": 3.0
+  },
+  "floor": {
+    "type": "wooden",
+    "path": "D:/Ced_data/wooden.jpg"
+  },
+  "ceiling": {},
+  "walls": [
+    {
+      "name": "FrontWall",
+      "location": [0, 4, 1.5],
+      "scale": [5, 1.5],
+      "rotation": [1.5708, 0, 0]  
+    },
+    {
+      "name": "BackWall",
+      "location": [0, -4, 1.5],
+      "scale": [5, 1.5],
+      "rotation": [1.5708, 0, 0]  
+    },
+    {
+      "name": "RightWall",
+      "location": [-5, 0, 1.5],
+      "scale": [4, 1.5],
+      "rotation": [1.5708, 0, 1.5708]
+    },   
+    {
+      "name": "LeftWall",
+      "location": [5, 0, 1.5],
+      "scale": [4, 1.5],
+      "rotation": [1.5708, 0, 1.5708]  
+    }
+  ],
+  "doors": [
+    {
+      "wall": "FrontWall",
+      "name": "FrontDoor",
+      "location": [0, 3.99, 1.25],
+      "scale": [1, 0.1, 1.25]
+    },
+    {
+      "wall": "LeftWall",
+      "name": "WashroomDoor",
+      "location": [-5, -3, 1.25],
+      "scale": [0.1, 0.5, 1.25]
+    }
+  ],
+  "windows": [
+    {
+      "wall": "RightWall",
+      "name": "RightWindow",
+      "location": [4.99, 0, 1.5],
+      "scale": [0.1, 2, 0.75]
+    }
+  ],
+  "furniture": [
+    {
+      "type": "table",
+      "name": "DiningTable",
+      "model_path": "D:/Ced_data/table.blend",
+      "location": [3, 2, 0.5],
+      "rotation": [0, 0, 0], 
+      "scale": [0.5, 0.5, 0.5]
+    }
+  ]
+}

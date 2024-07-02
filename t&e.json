@@ -1,0 +1,102 @@
+{
+    "room": {
+      "length": 10.0,
+      "width": 8.0,
+      "height": 3.0
+    },
+    "floor": {
+      "type": "wooden",
+      "path": "D:/Ced_data/objects/wooden.jpg"
+    },
+    "ceiling": {},
+    "walls": [
+      {
+        "name": "FrontWall",
+        "location": [0, 4, 1.5],
+        "scale": [5, 1.5, 0.1],
+        "rotation": [1.5708, 0, 0]
+      },
+      {
+        "name": "BackWall",
+        "location": [0, -4, 1.5],
+        "scale": [5, 1.5, 0.1],
+        "rotation": [1.5708, 0, 0]
+      },
+      {
+        "name": "LeftWall",
+        "location": [-5, 0, 1.5],
+        "scale": [4, 1.5, 0.1],
+        "rotation": [1.5708, 0, 1.5708]
+      },
+      {
+        "name": "RightWall",
+        "location": [5, 0, 1.5],
+        "scale": [4, 1.5, 0.1],
+        "rotation": [1.5708, 0, 1.5708]
+      }
+    ],
+    "doors": [
+      {
+        "wall": "FrontWall",
+        "name": "FrontDoor",
+        "location": [0, 3.99, 1.25],
+        "scale": [1, 0.1, 1.25],
+        "rotation": [0, 0, 0]
+      },
+      {
+        "wall": "LeftWall",
+        "name": "WashroomDoor",
+        "location": [-5, -3, 1.25],
+        "scale": [0.1, 0.5, 1.25],
+        "rotation": [0, 0, 0]
+      }
+    ],
+    "windows": [
+      {
+        "wall": "RightWall",
+        "name": "RightWindow",
+        "location": [4.99, 0, 1.5],
+        "scale": [0.1, 2, 0.75],
+        "rotation": [0, 0, 0]
+      }
+    ],
+    "furniture": [
+        {
+            "type": "bed",
+            "path": "D:/Ced_data/_bed3d/bed.blend",
+            "location": [2, -3, 0],
+            "scale": [1, 1, 1],
+            "rotation": [0, 0, 0]  
+        },
+        {
+            "type": "sofa",
+            "path": "D:/Ced_data/objects/couch.blend",
+            "location": [-2, 2, 0],
+            "scale": [1, 1, 1],
+            "rotation": [0, 0, 0]  
+        },
+        {
+            "type": "wardrobe",
+            "path": "D:/Ced_data/blender/Wardrobe  4 door.blend",
+            "location": [-4, -2, 0],
+            "scale": [1, 1, 1],
+            "rotation": [1.5708, 0,1.5708] 
+        },
+        {
+            "type": "table",
+            "path": "D:/Ced_data/blender/table.blend",
+            "location": [0, 0, 0],
+            "scale": [1, 1, 1],
+            "rotation": [0, 0, 0]  
+        },
+        {
+            "type": "sidetable",
+            "path": "D:/Ced_data/objects/StylishDesk.blend",
+            "location": [3, 3, 0],
+            "scale": [1, 1, 1],
+            "rotation": [0, 0, 0] 
+        }
+
+    ]
+  }
+  

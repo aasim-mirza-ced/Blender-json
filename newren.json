@@ -1,0 +1,123 @@
+{
+    "room": {
+      "length": 20.0,
+      "width": 8.0,
+      "height": 3.0
+    },
+    "floor": {
+      "type": "wooden",
+      "path": "D:/Ced_data/objects/wooden.jpg"
+    },
+    "walls": [
+      {
+        "name": "FrontWall",
+        "location": [0, 4, 1.5],
+        "scale": [10, 1.5],
+        "rotation": [1.5708, 0, 0],
+        "color": [1, 1, 0]  
+      },
+      {
+        "name": "BackWall",
+        "location": [0, -4, 1.5],
+        "scale": [10, 1.5],
+        "rotation": [1.5708, 0, 0],
+        "color": [1, 1, 0]  
+      },
+      {
+        "name": "RightWall",
+        "location": [-10, 0, 1.5],
+        "scale": [4, 1.5],
+        "rotation": [1.5708, 0, 1.5708],
+        "color": [1,1,0]
+      },   
+      {
+        "name": "LeftWall",
+        "location": [10, 0, 1.5],
+        "scale": [4, 1.5],
+        "rotation": [ 1.5708, 0, 1.5708],
+        "color": [1, 1, 0]  
+      }
+    ],
+    "doors": [
+      {
+        "wall": "FrontWall",
+        "name": "FrontDoor",
+        "location": [0, 3.99, 1.25],
+        "scale": [1, 0.1, 1.25]
+      },
+      {
+        "wall": "LeftWall",
+        "name": "WashroomDoor",
+        "location": [-10, -3, 1.25],
+        "scale": [0.1, 0.5, 1.25]
+      }
+    ],
+    "windows": [
+      {
+        "wall": "RightWall",
+        "name": "RightWindow",
+        "location": [10, 0, 1.5],
+        "scale": [0.1, 2, 0.75]
+      }
+    ],
+  "furniture": [
+    {
+        "type": "wardrobe",
+        "name": "MasterWardrobe",
+        "model_path": "D:/Ced_data/objects/Wardrobe  4 door.blend",
+        "location": [-3, -3.3, 1.2],
+        "rotation": [1.5708, 0, 0],
+        "scale": [2, 1, 1]
+      },
+      {
+        "type": "couch",
+        "name": "LivingRoomCouch",
+        "model_path": "D:/Ced_data/objects/couch.blend",
+        "location": [6, -1, 0],
+        "rotation": [0, 0, 1.5708], 
+        "scale": [2, 2, 2]
+      },
+      {
+        "type": "bed",
+        "name": "simpleBed",
+        "model_path": "D:/Ced_data/objects/cshfbed.obj",
+        "location": [-8, 1, 1.5],
+        "rotation": [1.5708, 0,-1.5708],
+        "scale": [3,3,3]
+      },
+      {
+        "type": "table",
+        "name": "DiningTable",
+        "model_path": "D:/Ced_data/objects/table.blend",
+        "location": [6, 2, 0],
+        "rotation": [0, 0, 0], 
+        "scale": [3, 2, 3]
+      },
+      {
+        "type": "tv",
+        "name": "cabinet",
+        "model_path": "D:/Ced_data/objects/TVcabinet.obj",
+        "location": [8, -3.5, 1.5],
+        "rotation": [0, 1.5708,1.5708], 
+        "scale": [1, 2, 2]
+      },
+      {
+        "type": "carpet",
+        "name": "rug",
+        "model_path": "D:/Ced_data/objects/Mycarpet1.blend",
+        "location": [0,0,0],
+        "rotation": [0, 0,0], 
+        "scale": [1, 2, 2]
+      },
+      {
+        "type": "sidetable",
+        "name": "table",
+        "model_path": "D:/Ced_data/objects/Piano_Bench.blend",
+        "location": [-3,3.5, 0],
+        "rotation": [0,0,1.5708], 
+        "scale": [2, 2, 2]
+      }
+
+  ],
+  "ceiling": []
+}
